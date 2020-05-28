@@ -1,0 +1,135 @@
+body{
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+
+}
+.top-container{
+  background-color: #ecfbfc;
+  position:relative;
+  padding-top:100px;
+  width: 100%;
+}
+
+h1{
+  margin:50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color:#11999E;
+}
+.first-image{
+  position:absolute;
+  top:40px;
+  right:26%;
+  width:10%;
+  }
+.second-image{
+  position:absolute;
+  left:250px;
+  width:10%;
+}
+.third-image{
+  width:70%;
+}
+a{
+  color: #11999E;
+   font-family: 'Montserrat', sans-serif;
+   margin:10px 20px;
+   text-decoration: none;
+}
+a:hover{
+  color:#EAF6F6;
+}
+.webdev{
+  font-weight: normal;
+}
+.skill-row{
+  margin:100px auto;
+  text-align: left;
+  line-height: 2;
+  width:50%;
+
+}
+.skillimage1{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.skillimage2{
+  width: 25%;
+  float:right;
+  margin-left: 30px;
+}
+hr{
+border-style: dotted none none none;
+border-color: #EAF6F6;
+border-width:10px;
+width:4%;
+margin-top: 100px;
+margin-bottom: 100px;
+
+}
+
+.profile{
+  margin-top: 90px;
+}
+.intro{
+  width:30%;
+}
+/* .computerpara{
+  clear:left;
+}
+.redchillipara{
+  clear:right;
+} */
+.contact-me{
+  margin-bottom:75px;
+
+}
+
+  .bottom-container{
+    background-color: #66BFBF;
+    padding-top: 50px;
+    padding-bottom: 10px;
+  }
+.ds{
+  color:#EAF6F6;
+  padding:20px 10px;
+  font-size: 0.75rem;
+}
+
+ .btn {
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    padding: 7px 18px;
+    font-family: Arial;
+    font-size: 20px;
+    border-radius: 8px;
+    border: solid 1px #3866a3;
+    background: linear-gradient(180deg, #11cdd4 13%, #11999e 100%);
+    text-shadow: 1px 1px 0px #528ecc;
+    box-shadow: inset 1px 1px 0px 0px #bbdaf7;
+}
+ .btn:hover {
+    background: linear-gradient(180deg, #30e3cb 13%, #11cdd4 100%);
+}
+ .btn:active {
+    position: relative;
+    top: 1px;
+}
+.parahello{
+  width:30%;
+  margin:auto;
+}
